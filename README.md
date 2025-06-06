@@ -1,38 +1,67 @@
-# Proposal: FiveM Client Support for Linux
+# 🐧 Proposal: Native FiveM Client Support for Linux
 
-This repository outlines a formal community-driven proposal to introduce and support a native FiveM client for Linux-based operating systems.
+> A community-driven proposal to bring FiveM client support to Linux — unlocking more flexibility, inclusivity, and innovation in the modding community.
 
-## 🧩 Objective
+![Platform](https://img.shields.io/badge/Platform-Linux-blue?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Community%20Proposal-lightgrey?style=flat-square)
 
-While FiveM currently supports server-side development on Linux, client-side support is still limited to Windows. This proposal aims to:
+---
 
-- Reduce platform exclusivity
-- Improve compatibility for Linux-based GTA V players (Proton, Wine, etc.)
-- Offer developers and players a more flexible environment
+## 🎯 Objective
 
-## 📦 Proposed Implementation Paths
+While FiveM already supports **server-side hosting on Linux**, the **client remains Windows-only**. This proposal aims to:
 
-1. **Evaluate Dependencies**
-   - Assess critical client-side dependencies (Rockstar Launcher, DirectX, etc.)
-   - Identify components that would require native or compatibility-layer adaptations
+- 🚪 **Reduce platform exclusivity** and embrace open-source ecosystems
+- 🧩 **Enhance compatibility** for Linux-based GTA V players using Proton/Wine
+- 💻 **Support devs** working natively in Linux environments
+- 🕹️ **Expand accessibility** for gamers on alternative operating systems
 
-2. **Proton/Wine Integration Layer**
-   - Create community-maintained installation and optimization scripts for Proton
-   - Benchmark performance/stability under various Linux distros
+---
 
-3. **Partial Native Client Feasibility**
-   - Modular rewrite of specific FiveM client modules for potential Linux compatibility
-   - Consider hybrid execution (native + Wine/Proton wrappers)
+## 🛠️ Proposed Implementation Paths
 
-## 🌐 Community Reference
+### 1️⃣ Evaluate Dependencies
 
-This proposal originates from an active request in the FiveM community forum:  
-🔗 [Client Support for Linux - Community Request](https://forum.cfx.re/t/request-client-support-for-linux/5252078)
+- 🔍 Assess critical Windows-only dependencies  
+  - Rockstar Launcher, DirectX, system-level hooks  
+- 🧠 Identify modules requiring rework or compatibility-layer adaptation
 
-Feedback and collaborative contributions are welcome.
+### 2️⃣ Proton/Wine Integration Layer
+
+- 🧪 Build community-maintained installation scripts for Proton
+- 🧮 Benchmark stability, latency, and FPS across major Linux distros
+
+### 3️⃣ Partial Native Client Feasibility
+
+- 🛠️ Modular rewrite of specific FiveM client modules
+- 🧬 Explore hybrid execution (e.g., native launcher with Wine-based rendering)
+- 💬 Investigate open-source alternatives to Windows-only frameworks
+
+---
+
+## 📚 Community References
+
+This proposal stems from a growing Linux player/dev demand:
+
+🔗 [Community Thread: FiveM Linux Client Support](https://forum.cfx.re/t/request-client-support-for-linux/5252078)
+
+📬 Contributions, feedback, and discussion are highly encouraged!
+
+---
+
+## 📂 This Repository Includes:
+
+- 📄 This proposal README
+- 🧠 `linux-client-benefits-analysis.md` — Rationale & technical value
+- 🧪 Experimental layouts, diagrams & config examples (to be added)
 
 ---
 
 ## ⚠️ Disclaimer
 
-This repository is community-maintained and not affiliated with the official CFX.re team. This is a technical concept proposal intended to open discussion and experimentation.
+> This repository is **not affiliated** with the official CFX.re team.  
+> It represents a **technical concept draft** intended to stimulate community feedback, research, and experimentation.
+
+---
+
+## 🐧 Because freedom of platform matters.
