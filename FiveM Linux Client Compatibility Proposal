@@ -1,0 +1,12 @@
+This document presents a proposal to initiate support for running the FiveM client on Linux-based systems. 
+
+While Linux is already supported on the server-side, many users and developers have requested native or improved compatibility for client-side usage. This initiative aims to explore integration paths using Proton, Wine, or possible partial native adaptations.
+
+Topics covered:
+- Rationale for Linux client support
+- Challenges with current architecture (DirectX, Rockstar Launcher)
+- Opportunities using compatibility layers (e.g., Proton)
+- Benefits for open-source and multi-platform development
+- Reference to the official community request thread
+
+Link: https://forum.cfx.re/t/request-client-support-for-linux/5252078
